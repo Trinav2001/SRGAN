@@ -1,5 +1,15 @@
 # SRGAN
 
+## Super Resolution GAN (SRGAN)
+This project implements the paper **“Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network”**, re-creating a GAN architecture to upscale images up to 4X while preserving fine textures. Achieves PSNR of 28.52 dB and SSIM of 0.88 on DIV2K dataset.
+
+## Setup
+1. Clone the repo: `git clone https://github.com/Trinav2001/SRGAN.git`
+2. Install dependencies: `pip install -r requirements.txt`
+3. Train: `python train.py`
+4. Run inference: `python demo.py`
+
+
 ## Reimplement SRGAN paper 
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1WhSJfCwBkBlSS4KEA1HKtGIp9gF2HcGL?usp=sharing)
